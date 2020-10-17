@@ -1,25 +1,29 @@
 body{
-    background-color: white; 
+	background-color: #f1faee; 
+	color:#1d3557
 }
 
 .navbar{
     max-height: 50px; 
-	background-color: red; 
-    font-size: 15px; 
+	background-color: #457b9d; 
+	font-size: 15px;
+	color: #1d3557; 
 }
 
 .navigation .navbar-brand{
-	color: white; 
-    background-color: blue;
+	color: #457b9d; 
+    background-color:#a8dadc;
     margin-left: 25px; 
 	padding: inherit; 
     font-family: "Times New Roman", Times, serif;	
-    font-weight: bold; 
+	font-weight: bold;
+	border-radius: 30px; 
 }
 
 
 .nav-link:hover{
-    background-color:#4380c7;
+	background-color:#a8dadc;
+	border-radius: 30px;
 }
 
 
@@ -50,21 +54,21 @@ button:focus {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 10px 20px 5px;
-	color: black;
-	background-color: white;
+	color: #1d3557;
+	background-color: f1faee;
 }
 
 .imageNav-content {
 	margin-top: 50px;
 	margin-bottom: 25px;
 	padding: 10px 25px 25px;
-	color: black;
-	background-color: white;
+	color: #1d3557;
+	background-color: #f1faee;
 }
 .description-header, .imageNav-header {
 	padding-top: 10px; 
 	padding-left: 5px;
-	color: red;
+	color: #e63946;
 	font-size: 26px;
 	font-weight: bold;
 	font-family: Georgia, Times, "Times New Roman", serif;
@@ -82,22 +86,22 @@ img{
 }
 
 p{
-	color: black;
+	color: #1d3557;
 	font-size: 14px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .active, .imageNav-photo:hover{
-    border-color:#4380c7;
+    border-color:#457b9d;
 }
 
 .footer{
-	background-color: grey; 
+	background-color: #457b9d; 
     border-top-style: solid; 
     border-top-width: 5px; 
-    border-top-color: #4380c7;
-    color: red; 
+    border-top-color: #a8dadc;
+    color: #f1faee; 
     min-height: 50px; 
     font-family: Arial, sans-serif;
     font-size: 20px; 
@@ -106,4 +110,13 @@ p{
     padding-top: 10px; 
 	width: 100%;
 	bottom: 0;
+}
+
+.a{
+	color: #a8dadc;
+}
+.a:hover{
+	background-color:#a8dadc;
+	border-radius: 30px;
+	color:#457b9d;
 }
