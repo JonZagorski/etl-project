@@ -11,6 +11,13 @@ body{
 	color:#1d3557
 }
 
+.question{
+	color:  #457b9d;
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .navbar{
     max-height: 50px; 
 	background-color: #457b9d; 
@@ -58,12 +65,21 @@ button:focus {
 }
 }
 
+.card-header {
+	font-size: 30px;
+	margin-bottom: 20px;
+	padding: 10px 20px 5px;
+	color: #1d3557;
+	background-color: #e63946;
+	font-weight: bold;
+}
+
 .description-content {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 10px 20px 5px;
 	color: #1d3557;
-	background-color: f1faee;
+	background-color: #f1faee;
 }
 
 .imageNav-content {
@@ -133,4 +149,16 @@ p{
 	background-color:#a8dadc;
 	border-radius: 30px;
 	color:#457b9d;
+}
+
+.card {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px 100px 0px;
+	color: #1d3557;
+	background-color: white;
+
+	/*
+change background color = #f1faee
+*/
 }
