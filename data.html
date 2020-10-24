@@ -51,7 +51,8 @@
             <h1 class="description-header">Data Sources and Code</h1>
                 <hr>
                 <p>
-                    Talk about the data
+                  Each data source and the method in which the data was obtained is described below for each respective website. 
+                  Analysts can download our <link, not sure if this should be SQL Schema or if we want to include this> to begin further evaluation of the fully transformed and extracted data set.                  
                 </p>
             
           </div>
@@ -62,15 +63,57 @@
     <!--CARDS-->
     <div class="card">
         <div class="card-header">
-            Name the site here
+            NFL Team Standings
         </div>
         <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="link" target="_blank" class="btn btn-primary">Go somewhere</a>
-            <a href="link" target="_blank" class="btn btn-primary">Go somewhere else</a>
+            <p class="card-text">Data for the wins, losses, and ties were scraped for each team in the NFL website for tables for the years 2015 through 2019. Data for each year can be accessed by replacing the year in the URL. The information for each team was contained in one table per year but in the same location across all years. The data was then cleaned to extract only the information needed.  Each year was extracted into its own CSV file and then combined into a database. The following information was updated:</p>
+            <ul class="card-list">
+              <li>Team names renamed across all years</li>
+              <li>All columns dropped except for team name, wins, losses, and ties</li>
+              <li>The wins, losses and ties columns were renamed to correlate with the year associated with the information</li>
+            </ul>
+            
+            <a href="https://www.nfl.com/standings/league/2019/reg/" target="_blank" class="btn btn-primary">See 2019 Standings</a>
+            <a href="LINK TO GitHub FOLDER OF THESE CSVs?" target="_blank" class="btn btn-primary">See CSVs</a>
         </div>
     </div>
+    <br>
+
+    <div class="card">
+      <div class="card-header">
+          PFR Attendance Data
+      </div>
+      <div class="card-body">
+          <p class="card-text">Data for attendance records (total, home, and away) were scraped for tables for the years 2015 through 2019. Data for each year can be accessed by replacing the year in the URL. The information for each team was contained in one table per year but in the same location across all years. The data was then cleaned to extract only the information needed. Each year was extracted into its own CSV file and then combined into a database.  The following information was updated:</p>
+          <ul class="card-list">
+            <li>All columns were dropped except for the team name and attendance columns (Total, Home, & Away)</li>
+            <li>All columns dropped except for team name, wins, losses, and ties</li>
+            <li>The attendance columns were then renamed so each one corresponded with the correct year</li>
+          </ul>
+          
+          <a href="https://www.pro-football-reference.com/years/2019/attendance.htm" target="_blank" class="btn btn-primary">See 2019 Attendance</a>
+          <a href="LINK TO GitHub FOLDER OF THESE CSVs?" target="_blank" class="btn btn-primary">See CSVs</a>
+      </div>
+  </div>
+  <br>
+
+  <div class="card">
+    <div class="card-header">
+        PFR Team Data
+    </div>
+    <div class="card-body">
+        <p class="card-text">Need details</p>
+        <ul class="card-list">
+          <li>thing 1</li>
+          <li>thing 2</li>
+          <li>thing 3</li>
+        </ul>
+        
+        <a href="https://www.pro-football-reference.com/teams/cle/2019.htm" target="_blank" class="btn btn-primary">See 2019 Browns Team Data</a>
+        <a href="LINK TO GitHub FOLDER OF THESE CSVs?" target="_blank" class="btn btn-primary">See CSVs</a>
+    </div>
+</div>
+<br>
 ​
     <!-- footer -->
     <footer>
