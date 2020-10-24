@@ -142,6 +142,14 @@ p{
 	bottom: 0;
 }
 
+.card-text{
+	font-size: 17px;
+}
+
+.card-list{
+	color: #1d3557;
+}
+
 .a{
 	color: #a8dadc;
 }
@@ -151,14 +159,22 @@ p{
 	color:#457b9d;
 }
 
+.ul {
+	color: #1d3557;
+}
+
 .card {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 0px 100px 0px;
 	color: #1d3557;
-	background-color: white;
+	background-color: #f1faee;
+}
+
+.btn {background-color:  #1d3557;
+
+}
 
 	/*
 change background color = #f1faee
 */
-}
